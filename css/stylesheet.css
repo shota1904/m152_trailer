@@ -189,7 +189,6 @@ div.gallery:hover {
 }
 .row a, #sources a{
 	color: blue;
-	text-decoration-line: underline;
 }
 .row a:hover, #sources a:hover{
 	background-color: #2E75B6;
