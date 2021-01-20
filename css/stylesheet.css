@@ -152,7 +152,7 @@ div.gallery:hover {
 	font-size: 22px;
 	text-decoration-line: underline
 }
-@media screen and (max-width: 1274px){
+@media screen and (max-width: 1257px){
 	.gallery {
 		width: 30vw;
 		margin-left: 1.6vw;
