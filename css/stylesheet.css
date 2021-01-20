@@ -7,6 +7,7 @@
 }
 body{
 	background: #BDD0E9;
+	margin-bottom: 80px;
 }
 header{
 	background: #2E75B6;
@@ -115,13 +116,39 @@ label #cancel{
 	width: 80%;
 }
 #sources li{
-	padding: 5px 0px 5px 10px
+	padding: 5px 0px 5px 10px;
 }
 .footer{
 	position: fixed;
-	padding: 10px;
-   	left: 0;
- 	bottom: 0;
+	bottom: 0;
 	width: 100%;
 	background-color: #3C88CD;
+}
+p{
+	padding: 10px;
+}
+.gallery{
+	margin: 5px;
+  	border: 1px solid #ccc;
+  	float: left;
+  	width: 300px;
+}
+div.gallery img {
+  	width: 100%;
+  	height: auto;
+}
+div.gallery:hover {
+  	border: 1px solid #777;
+	opacity: 0.8;
+	transition: all .5s;
+}
+.img_desc{
+	padding: 15px;
+  	text-align: center;
+	background-color: rgba(0,0,0,0.78);
+	color: white;
+}
+.subtitles{
+	font-size: 22px;
+	text-decoration-line: underline
 }
