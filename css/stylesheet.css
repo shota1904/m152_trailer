@@ -126,6 +126,13 @@ label #cancel{
 	bottom: 0;
 	width: 100%;
 	background-color: #3C88CD;
+	opacity: 0.4;
+	color: #3C88CD;
+}
+.footer:hover{
+	opacity: 1;
+	transition: all .5s;
+	color: Black;
 }
 p{
 	padding: 10px;
@@ -134,7 +141,7 @@ p{
 	margin: 1vw;
   	border: 1px solid #ccc;
   	float: left;
-  	width: 22.75vw;;
+  	width: 22.25vw;;
 }
 div.gallery img {
   	width: 100%;
@@ -155,10 +162,10 @@ div.gallery:hover {
 	font-size: 22px;
 	text-decoration-line: underline;
 }
-@media screen and (max-width: 1257px){
+@media screen and (max-width: 1220px){
 	.gallery {
 		width: 30vw;
-		margin-left: 1.6vw;
+		margin-left: 1vw;
 	}
 }
 @media screen and (max-width: 930px){
@@ -191,4 +198,21 @@ div.gallery:hover {
 }
 .row{
 	width: 67vw;
+}
+#profile_pic{
+	margin: 5px;
+	border: 1px solid #ccc;
+	width: 25vw;
+	float: right;
+	padding: 15px;
+}
+#profile_pic img{
+	width: 100%;
+}
+h3{
+	padding-left: 10px;
+	font-size: 25px;
+}
+.achievements p{
+	padding-left: 30px;
 }
