@@ -68,6 +68,7 @@ label #btn{
 }
 
 label #cancel{
+	position: fixed;
 	z-index: 1111;
 	right: -195px;
 	top: 12px;
@@ -106,7 +107,8 @@ label #cancel{
 .description{
 	background: #FFFFFF;
 	border: 1px solid black;
-	width: 80%;
+	width: 52.5%;
+	padding: 5px;
 }
 #sources{
 	background: #FFFFFF;
