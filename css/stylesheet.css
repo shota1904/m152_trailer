@@ -20,6 +20,10 @@ header{
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+h2{
+	padding-left: 10%;
+  	font-size: 30px;
+}
 .sidebar{
 	position: fixed;
 	top: 0;
