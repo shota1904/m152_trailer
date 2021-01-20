@@ -21,7 +21,6 @@ header{
 	padding-bottom: 10px;
 }
 h2{
-	padding-left: 10%;
   	font-size: 30px;
 }
 .sidebar{
@@ -154,7 +153,7 @@ div.gallery:hover {
 }
 .subtitles{
 	font-size: 22px;
-	text-decoration-line: underline
+	text-decoration-line: underline;
 }
 @media screen and (max-width: 1257px){
 	.gallery {
@@ -173,4 +172,23 @@ div.gallery:hover {
 		width: 80vw;
 		margin-left: 10vw;
 	}
+}
+.contact_text{
+	padding-left: 35vw;
+}
+.button{
+	height: 50px;
+	width: 80px;
+}
+.row a, #sources a{
+	color: blue;
+	text-decoration-line: underline;
+}
+.row a:hover, #sources a:hover{
+	background-color: #2E75B6;
+	color: white;
+	transition: all .5s;
+}
+.row{
+	width: 67vw;
 }
