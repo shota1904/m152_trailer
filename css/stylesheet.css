@@ -23,7 +23,7 @@ header{
 .sidebar{
 	position: fixed;
 	top: 0;
-	right: -250px;
+	right: -251px;
 	width: 250px;
 	background: #FFFFFF;
 	transition: all .5s;
@@ -128,10 +128,10 @@ p{
 	padding: 10px;
 }
 .gallery{
-	margin: 5px;
+	margin: 1vw;
   	border: 1px solid #ccc;
   	float: left;
-  	width: 300px;
+  	width: 22.75vw;;
 }
 div.gallery img {
   	width: 100%;
@@ -151,4 +151,22 @@ div.gallery:hover {
 .subtitles{
 	font-size: 22px;
 	text-decoration-line: underline
+}
+@media screen and (max-width: 1274px){
+	.gallery {
+		width: 30vw;
+		margin-left: 1.6vw;
+	}
+}
+@media screen and (max-width: 930px){
+	.gallery {
+		width: 45vw;
+		margin-left: 2.5vw;
+	}
+}
+@media screen and (max-width: 700px){
+	.gallery {
+		width: 80vw;
+		margin-left: 10vw;
+	}
 }
